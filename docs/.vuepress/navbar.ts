@@ -3,6 +3,16 @@ import { defineNavbarConfig } from "vuepress-theme-plume";
 export const navbar = defineNavbarConfig([
   { text: "首页", link: "/" },
   { text: "博客", link: "/blog/" },
+  {
+    text: "前端",
+    items: [
+      {
+        text: "前端架构",
+        icon: "/icon/comm/pen.svg",
+        link: "/frontend/architect/3fG7hK9p/",
+      },
+    ],
+  },
   // { text: "标签", link: "/blog/tags/" },
   // { text: "归档", link: "/blog/archives/" },
   {
@@ -11,27 +21,27 @@ export const navbar = defineNavbarConfig([
       {
         text: "随笔",
         icon: "/icon/comm/pen.svg",
-        link: "/notes/notebook/README.md",
+        link: "/record/notebook/1elrsik1/",
       },
       {
         text: "知识碎片",
         icon: "/icon/comm/knowledge.svg",
-        link: "/notes/fragment/README.md",
+        link: "/record/fragment/mph76ljp/",
       },
       {
         text: "面试题",
         icon: "/icon/comm/interview.svg",
-        link: "/notes/interviewTopic/README.md",
+        link: "/record/interviewTopic/im1e12ti/",
       },
       {
         text: "备忘录",
         icon: "/icon/comm/memo.svg",
-        link: "/notes/memo/README.md",
+        link: "/record/memo/0jg3eb43/",
       },
       {
         text: "工具",
         icon: "/icon/tools/tools-fn.svg",
-        link: "/notes/utilityFunc/README.md",
+        link: "/record/utilityFunc/iodlr0ut/",
       },
     ],
   },

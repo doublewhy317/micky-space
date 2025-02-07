@@ -15,7 +15,7 @@ export default defineThemeConfig({
     name: "Micky",
     description: "Micky`s Space",
     circle: true,
-    location: "四川-  成都",
+    location: "四川 - 成都",
     // organization: '',
   },
 
