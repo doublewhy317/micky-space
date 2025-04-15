@@ -1,5 +1,22 @@
 import { defineNoteConfig } from "vuepress-theme-plume";
 
+// 前端基础
+const fundamental = defineNoteConfig({
+  dir: "frontend",
+  link: "/frontend/fundamental",
+  sidebar: [
+    {
+      text: "前端基础",
+      icon: "/icon/technology/React.svg",
+      items: [
+        { text: "React 笔记", link: "/frontend/fundamental/7fG9hR2q/" },
+      ],
+    },
+  ],
+});
+
+
+// 前端架构
 const architect = defineNoteConfig({
   dir: "frontend",
   link: "/frontend/architect",
@@ -21,4 +38,4 @@ const architect = defineNoteConfig({
     },
   ],
 });
-export const frontendCatalog = [architect];
+export const frontendCatalog = [fundamental, architect];

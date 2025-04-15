@@ -7,6 +7,11 @@ export const navbar = defineNavbarConfig([
     text: "前端",
     items: [
       {
+        text: "前端基础",
+        icon: "/icon/comm/pen.svg",
+        link: "/frontend/fundamental/mph74ljp/",
+      },
+      {
         text: "前端架构",
         icon: "/icon/comm/pen.svg",
         link: "/frontend/architect/3fG7hK9p/",
